@@ -1,0 +1,82 @@
+.container {
+  width: 100vw;
+  height: 39rem;
+  background: url('../../assets/Image.png')lightgray 50% / cover no-repeat;;
+}
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+nav ul{
+  display: flex;
+  gap: 3rem;
+}
+nav ul li a{
+  border-radius: .2rem;
+  padding: 10px;
+}
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, .08);
+}
+
+.btn-signin {
+  border-radius: .5rem;
+  background-color: #F0BF9B;
+  color: #000;
+}
+.btn_area {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+  align-items: center;
+  
+}
+.sectionHeader {
+  width: 100vw;
+}
+.sectionContent {
+  padding: 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+.sectionLeft{
+  width: 50%;
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.sectionLeft h1 {
+  color: #F9E3C5;
+  font-family: Poppins;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  letter-spacing: -0.0625rem;
+  margin-bottom: 2rem;
+}
+.sectionLeft p {
+  color: #E1EDED;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+.btn_area a {
+  background-color: #F0BF9B;
+  border-radius: .3rem;
+  color: #000;
+  padding: 1rem;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
